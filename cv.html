@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam El Madani - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profile-photo.jpg" alt="Photo de profil" class="profile-photo">
+            <h1>Adam El Madani</h1>
+            <h3>Ingénieur logiciel et intelligence artificielle</h3>
+            <p>Fès, Maroc | +212 693872417 | adamelmadani0129@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/adam-elmadani/" target="_blank">Profil LinkedIn</a></p>
+        </header>
+
+        <section class="profile">
+            <h2 class="section-title">Profil</h2>
+            <p>En tant qu'ingénieur logiciel spécialisé en backend, certifié par ALX, et élève en intelligence artificielle à l'ENSAM, je développe des applications web dynamiques avec une expertise en Python, Flask, Node.js, MySQL et MongoDB. Je crée des solutions backend robustes et des interfaces utilisateurs conviviales en utilisant HTML, CSS, JavaScript et React.js. Actuellement, je travaille sur un projet avec HOSTOWEB, l'une des 10 meilleures entreprises d'hébergement web au Maroc. Engagé dans des clubs parascolaires tels que Gadz-IT et K-Otaku, j'organise des compétitions de programmation et je médiatise des événements, contribuant ainsi à une communauté technologique florissante. Passionné par l'innovation, je suis dédié à l'exploration de nouvelles technologies et méthodologies en ingénierie logicielle et intelligence artificielle.</p>
+        </section>
+
+        <section class="education">
+          <h2 class="section-title">Certificats</h2>
+          <table class="education-table">
+              <thead>
+                  <tr>
+                    <th>Année</th>
+                    <th>Certificat</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td>Février 2023 - Avril 2024</td>
+                    <td>12-month Software Engineering Program with a specialization in Back-end | ALX</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+
+        <section class="education">
+            <h2 class="section-title">Éducation</h2>
+            <table class="education-table">
+                <thead>
+                    <tr>
+                      <th>Année</th>
+                      <th>Diplôme</th>
+                      <th>Établissement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>Septembre 2024 - Présent</td>
+                      <td>Cycle Ingénieur IATD-SI</td>
+                      <td>ENSAM Meknès</td>
+                    </tr>
+                    <tr>
+                        <td>Septembre 2022 - Juillet 2024</td>
+                        <td>Années Préparatoires Intégrées</td>
+                        <td>ENSAM Meknès</td>
+                    </tr>
+                    <tr>
+                        <td>Septembre 2021 - Juin 2022</td>
+                        <td>Baccalauréat Scientifique Maths B (Option Française)</td>
+                        <td>Lycée Adarissa Fès</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="skills">
+            <h2 class="section-title">Compétences Techniques</h2>
+            <ul class="skills-list">
+                <li>Python, Flask</li>
+                <li>JavaScript, TypeScript, Node.js</li>
+                <li>SQL, MongoDB, Redis</li>
+                <li>HTML, CSS, React.js</li>
+                <li>C, C++, Git, Unittest</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2 class="section-title">Projets</h2>
+            <table class="projects-table">
+                <thead>
+                    <tr>
+                        <th>Projet</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>HOSTOWEB PULSE :</strong></td>
+                        <td>Application web en temps réel fournissant des données sur les entreprises d'hébergement web marocaines. Utilise MongoDB, Puppeteer, et Chart.js.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>EasyBus :</strong></td>
+                        <td>Application web offrant des mises à jour en temps réel sur les itinéraires et arrêts de bus. Backend développé en Node.js et frontend en React.js.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>GAHub :</strong></td>
+                        <td>Solution de gestion d'entreprise avec contrôle de version intégré. Développé avec Python et SQLAlchemy.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Clone Airbnb :</strong></td>
+                        <td>Interface en ligne de commande pour la gestion des données Airbnb, intégration MySQL avec API Flask.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="community">
+            <h2 class="section-title">Engagements Communautaires</h2>
+            <ul class="community-list">
+                <li>Coordinateur Médias du Club Gadz'IT (Septembre 2024 - Présent)</li>
+                <li>Vice-président du Club K-Otaku (Septembre 2024 - Présent)</li>
+                <li>Membre de la communauté ALX (Fév 2023 - Présent)</li>
+                <li>Membre en Gadz'IT, organisateur et participant à des compétitions de programmation (AMPC3, UPF-V7)</li>
+                <li>Coordinateur Médias du Club K-Otaku (Septembre 2023 - Juin 2024)</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Contact</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required><br><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" placeholder="Votre email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message" required></textarea><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
